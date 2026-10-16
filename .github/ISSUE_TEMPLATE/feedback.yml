@@ -1,0 +1,24 @@
+name: Playtest feedback
+description: Help improve the Pocket Reels prototype
+title: '[Feedback] '
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+    validations:
+      required: true
+  - type: textarea
+    id: clarity
+    attributes:
+      label: Could you understand the bet, paylines and payout?
+      description: Tell us what was unclear, including any win you could not explain.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change first?
+      description: Controls, pace, presentation or rules. For bugs, include reproduction steps.
+    validations:
+      required: true
