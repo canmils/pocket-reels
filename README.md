@@ -2,6 +2,12 @@
 
 A tiny open-source slot prototype for desktop and phone browsers. **Fictional credits only.** No deposits, cash prizes, purchases, accounts, analytics or backend. AI-assisted development directed by Joan Casellas.
 
+## Play
+
+**[Play Pocket Reels in your browser](https://canmils.github.io/pocket-reels/)** — free, no account, no installation. Start with 1,000 fictional credits, choose a total bet and tap **Spin**.
+
+[Give playtest feedback](https://github.com/canmils/pocket-reels/issues/new?template=feedback.yml) · [Product case study](PORTFOLIO.md) · [Deployment workflow](https://github.com/canmils/pocket-reels/actions/workflows/pages.yml)
+
 ## Play locally
 
 Download the files and open `index.html` in a modern browser. No installation, build or API key. If your browser restricts local files, use Python 3:
@@ -11,8 +17,6 @@ python3 -m http.server 8000
 ```
 
 Open http://localhost:8000. On Windows, `py -m http.server 8000` is an alternative.
-
-The intended public demo URL is https://canmils.github.io/pocket-reels/ — **not live until the repository is created and Pages deployment succeeds**.
 
 ## Rules
 
@@ -69,11 +73,11 @@ Fork and submit a small pull request. Keep game maths separate from presentation
 
 ## Publish
 
-1. Create a public `canmils/pocket-reels` repository.
-2. Add these files to its root, including `.github/`.
-3. Under Settings → Pages, select **GitHub Actions** as source.
-4. Push to `main` or manually run **Deploy demo** under Actions.
-5. Verify the deployment before sharing its public URL.
+This repository is already published with Pages. For your own fork:
+
+1. Under Settings → Pages, select **GitHub Actions** as source.
+2. Push to `main` or manually run **Deploy demo** under Actions.
+3. Verify deployment and use your fork's Pages URL. Update project and feedback links when publishing under another account.
 
 The deployment workflow tests the model and packages only the four runtime files. The CI workflow also runs on pull requests.
 
