@@ -8,6 +8,10 @@ A tiny open-source slot prototype for desktop and phone browsers. **Fictional cr
 
 [Give playtest feedback](https://github.com/canmils/pocket-reels/issues/new?template=feedback.yml) · [Product case study](PORTFOLIO.md) · [Deployment workflow](https://github.com/canmils/pocket-reels/actions/workflows/pages.yml)
 
+[![Pocket Reels public browser capture showing a settled spin and fictional credit balance](docs/preview.jpg)](https://canmils.github.io/pocket-reels/)
+
+*Actual public-browser capture, 22 October 2026. [Play Pocket Reels](https://canmils.github.io/pocket-reels/).*
+
 ## Play locally
 
 Download the files and open `index.html` in a modern browser. No installation, build or API key. If your browser restricts local files, use Python 3:
